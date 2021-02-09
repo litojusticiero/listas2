@@ -1,0 +1,153 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+    
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    clear: both;
+}
+ul.lista1 li{
+    font-size: 120%;
+    color: darkmagenta;
+    background-color: rgb(126, 196, 126);
+    border: 4px dashed darkmagenta;
+    float: left;
+    width: 170px;
+    text-align: center;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+.lista2{
+    text-align: center;
+}
+ul.lista2 li{
+    background-color: white;
+    border: white 2px solid;
+    border-color: white black black white;
+    padding: 0.4em;
+    display: inline;
+    margin-right: 00.5em;   
+}
+
+ul.lista2 li:hover{
+    background-color: gainsboro;
+    border-color: black white white black;
+}
+ul.lista3{
+    border: 1px solid black;
+    float: left;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+ul.lista3 li{
+    border: 1px black solid;
+    background-color: white;
+    width: 100px;
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+ul.lista4{
+    text-align: center; 
+}
+ul.lista4 li{
+    display: inline-block;
+    color: blue;
+    background-color: white;
+    padding: 0.5em 0em;
+    width: 170px;
+}
+ul.lista4 li.azul{
+    color: white;
+    background-color: blue;
+}
+ul.lista5 li{
+    display: inline-block;
+    margin-right: 1em;
+
+}
+
+.inicio:before{
+    background-image: url(img/home.jpg);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.anadir:before{
+    background-image: url(img/anadir.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.listar:before{
+    background-image: url(img/listar.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.borrar:before{
+    background-image: url(img/borrar.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.buscar:before{
+    background-image: url(img/buscar.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.modificar:before{
+    background-image: url(img/modificar.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.salir:before{
+    background-image: url(img/apagar.png);
+    background-size: 30px 30px;
+    content:"";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+ul.lista6{
+    text-align: center;
+}
+ul.lista6 li {
+    
+    display: inline;
+    border: black 2px solid;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    padding: 0.5em 0.5em 0.3em;
+    background-color: white;
+    font-size: 200%;
+    line-height: 250%;
+}
+.inicio2{
+    content: url(img/home.jpg);
+}
+
+
+
